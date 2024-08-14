@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="text" name="" id="display" />
+
+      <input type="range" name="" id="slider" min="1" max="10" value="5" >
+      <span id="sliderValue">5</span>
+
+      <input type="checkbox" name="" id="Capital" />
+      <label for="Capital">Capital</label>
+      <input type="checkbox" name="" id="Small" />
+      <label for="Small">Small</label>
+      <input type="checkbox" name="" id="Numbers" />
+      <label for="Numbers">Numbers</label>
+      <input type="checkbox" name="" id="Symbols" />
+      <label for="Symbols">Symbols</label>
+
+      <button onclick="GeneratePassword()">Generate Password</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
